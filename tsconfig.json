@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "lib": ["es5", "es6", "es7", "es2017.object", "dom"],
+    "target": "es6",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "baseUrl": ".",
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "outDir": "dist",
+    "sourceMap": true,
+    "inlineSources": true,
+    "typeRoots": [
+      "./node_modules/@types"
+    ]
+  },
+  "include": ["**.ts", ]
+}

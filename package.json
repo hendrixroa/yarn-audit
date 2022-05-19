@@ -1,0 +1,25 @@
+{
+  "name": "yarn-audit",
+  "version": "0.0.1",
+  "description": "",
+  "engines": {
+    "node": ">= 10.15.0"
+  },
+  "scripts": {
+    "audit_report": "node -r ts-node/register yarnAudit.ts yarn_audit.json packageVulnerable"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "module-alias": "^2.2.1",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.7"
+  },
+  "devDependencies": {
+    "@types/node": "^12.7.5",
+    "@types/request": "^2.48.1",
+    "@types/request-promise-native": "^1.0.15",
+    "ts-node": "^8.0.2",
+    "typescript": "3.6"
+  }
+}
